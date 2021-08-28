@@ -1,0 +1,21 @@
+CREATE TABLE combined(
+	combined_id INT,
+	video_id VARCHAR(100) NOT NULL,
+	trending_date VARCHAR,
+	video_title VARCHAR,
+	channel_title VARCHAR,
+	category_id INT NOT NULL,
+	tags VARCHAR,
+	views INT,
+	likes INT,
+	dislikes INT,
+	comment_count INT,
+	comments_disabled BOOLEAN,
+	ratings_disabled BOOLEAN,
+	video_error_or_removed BOOLEAN,
+	kind VARCHAR,
+	etag VARCHAR,
+	items VARCHAR,
+	category_title VARCHAR,
+	country VARCHAR(100)
+);
